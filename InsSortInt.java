@@ -18,10 +18,6 @@ public class InsSortInt {
 
         System.out.println("Smallest value: " + arr[0]);
         System.out.println("Largest value: " + arr[count - 1]);
-        System.out.println("Entire thing: ");
-        for(int i=0; i<count; i++){
-            System.out.println(arr[i]);
-        }
     }
 
     public static void insertionSort(int[] arr, int n) {
